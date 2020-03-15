@@ -1,0 +1,4 @@
+export const LOAD_CREATED_USER = 'LOAD_CREATED_USER';
+export const CREATE_USER = 'CREATE_USER';
+export const LOAD_LOG_IN_USER = 'LOAD_LOG_IN_USER';
+export const AUTHORIZE_USER = 'AUTHORIZE_USER';
