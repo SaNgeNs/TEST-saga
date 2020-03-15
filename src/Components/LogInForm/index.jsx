@@ -12,6 +12,7 @@ import {
   Field,
   Button,
   Error,
+  TextButton,
 } from 'Styles';
 
 const Schema = object().shape({
@@ -82,6 +83,8 @@ export const LogInForm = () => {
           )}
         </ErrorMessage>
       </FieldWrap>
+
+      <TextButton>Forgot Password?</TextButton>
 
       <Button type="submit">
         {isFetching ? 'Loading' : 'Log In' }

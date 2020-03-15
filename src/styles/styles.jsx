@@ -86,3 +86,12 @@ export const ButtonWrap = styled.span`
   flex-direction: row;
   width: 100%;
 `;
+
+export const TextButton = styled.p`
+  color: #19AF86;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: right;
+  font-weight: bold;
+  cursor: pointer;
+`;
